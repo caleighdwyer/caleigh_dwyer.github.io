@@ -13,6 +13,4 @@ Thank you for visiting my website!
 
 Learn more about my professional and academic background [here](about_me.html). 
 
-
 Check out my dashboard displaying Instacart data [here](instacart_dashboard.html). 
-
