@@ -1,0 +1,74 @@
+---
+title: "Plots"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+##instacart
+Read in the data for instacart
+
+```{r}
+data("instacart")
+
+instacart = 
+  instacart |> 
+  as_tibble()
+```
+
+
+
+```{r}
+instacart_box = 
+instacart |> 
+  filter(department %in% ("frozen")) |>
+  select(aisle, order_hour_of_day) |> 
+  group_by(aisle) |> 
+  plot_ly(
+  y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis") |> 
+  layout(title = "Distribution of order hour of day by frozen department aisle",
+         xaxis = list(title = "Aisle"),
+         yaxis = list(title = "Order hour of day"))
+    
+```
+
+
+```{r}
+instacart_bar =
+  instacart |> 
+  select(reordered, department) |> 
+  filter(reordered == 1) |> 
+  group_by(department) |>
+  count(reordered) |> 
+  ungroup() |> 
+  mutate(department = fct_reorder(department, n)) |> 
+  plot_ly(
+    x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis") |> 
+  layout(title = "Number of Instacart reorders per department",
+         xaxis = list(title = "reorder"),
+         yaxis = list(title = "Number of reorders"))
+```
+
+
+
+```{r}
+instacart_line =
+  instacart |> 
+  filter(department %in% ("snacks")) |> 
+  select(aisle, order_dow) |> 
+  group_by(aisle, order_dow) |> 
+  summarize(n = n()) |> 
+  plot_ly(
+    x=~order_dow, y = ~n, type ="scatter", color = ~aisle, mode = "lines", colors = "viridis") |> 
+layout(title = "Number of Instacart orders per snack department aisle by day of the week",
+         xaxis = list(title = "Day of the week"),
+         yaxis = list(title = "Number of orders"))
+```
+
+
+
