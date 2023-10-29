@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Caleigh Dwyer"
 output: 
   html_document:
     toc: true
@@ -7,5 +7,11 @@ output:
     theme: cerulean
 ---
 
+## Welcome
 
+Thank you for visiting my website! 
+
+Learn more about my professional and academic background [here] (). 
+
+Check out my dashboard displaying Instacart, NY NOAA, and NYC restuarant inspection data [here] (). 
 

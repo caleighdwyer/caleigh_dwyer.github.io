@@ -1,0 +1,52 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+I am an MPH candidate at the Mailman School of Public Health interested in pursuing a career in public health program design and evaluation. My areas of interest include health equity, chronic disease prevention, and community health.
+
+## _Education_
+
+### Columbia University Mailman School of Public Health, May 2024
+Master of Public Health, Sociomedical Sciences
+Certificate in Public Health Research Methods
+
+### Denison University, May 2019
+Bachelor of Arts, Anthropology and Sociology
+
+## _Experience_
+
+### Columbia Mailman School of Public Health | Teaching Assistant, Public Health Interventions | New York, NY | September 2023 to Present
+* Support class facilitation and grading for course on program planning and evaluation, applying theory to interventions, and systems thinking that is delivered to over 400 students as part of the MPH Core Curriculum
+*	Provide feedback to students on their critiques of logic models and evaluation reports
+Columbia University School of Nursing | Student Research Worker | New York, NY | January 2023 to Present
+*	Clean data in STATA and conduct literature reviews for NIH-funded studies on heart disease risk among LGB women
+*	Incorporate coping skills training into heart disease interventions to help LGB adults manage stress
+
+### Maimonides Medical Center | Health Equity Curriculum Assistant | New York, NY | May 2023 to August 2023
+*	Developed evidence-based health equity curriculum, learning objectives, educational content and assessment questions for physician residents at Maimonides' Global Health Institute
+*	Scaled content delivery to residents across NY state through Northwell Health’s JiTT mobile application
+
+### Advisory Board | Senior Analyst, Custom Research | Washington, DC | November 2021 to July 2022
+*	Coordinated six panelists and over 200 attendees for a cancer health equity event that positively impacted life sciences sponsor’s brand, promoted cross-sector collaboration, and resulted in 90+ NPS
+*	Conducted literature reviews, root-cause analysis, and semi-structured interviews with health system executives to research topics like structural heart care equity and health system marketing and branding
+*	Created trainings for clients on population health to empower meaningful conversations with their customers
+
+### Advisory Board | Scaled Delivery Team | Washington, DC | July 2019 to November 2021	
+*	Launched process for answering up to 45 client research questions per week with detailed deliverables and support calls, reducing average turnaround time for deliverables by 60%
+*	Designed weekly trainings and mentored junior staff using expertise in the areas of clinical workforce, population health, payer, and post-acute care strategy
+*	Advocated for and facilitated diversity, equity, and inclusion initiatives as team culture chair 
+
+### Department of Anthropology & Sociology, Denison University | Senior Researcher | Granville, OH | August 2018 to May 2019
+*	Devised, conducted, and presented independent research project on the health care experiences of LGBTQ+ students through 12 semi structured interviews and qualitative data analysis using ATLAS.ti software
+
+### The Center for Health, Identity, Behavior, and Prevention Studies | Research Intern | Newark, NJ | Summer 2018
+*	Recruited 100 participants through community events for pilot study on HIV/AIDS, mental health, and substance use
+*	Facilitated participant assessments, which included consent process, HIV testing, and a computer survey
+
+### The Lisska Center for Scholarly Engagement, Denison University | Summer Scholar Researcher | Granville, OH | Summer 2017
+*	Awarded $4,000 by selective faculty committee for independent research analyzing the social construction of contraception through primary and secondary research methods
