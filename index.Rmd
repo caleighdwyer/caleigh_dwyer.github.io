@@ -7,11 +7,11 @@ output:
     theme: cerulean
 ---
 
-## Welcome
+## _Welcome_
 
 Thank you for visiting my website! 
 
 Learn more about my professional and academic background [here](about_me.html). 
 
-Check out my dashboard displaying Instacart, NY NOAA, and NYC restuarant inspection data [here] (). 
+Check out my dashboard displaying Instacart data [here](instacart_dashboard.html). 
 
