@@ -52,7 +52,7 @@ Column {data-width=350}
   mutate(department = fct_reorder(department, n)) |> 
   plot_ly(
     x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis") |> 
-  layout(xaxis = list(title = "reorder"),
+  layout(xaxis = list(title = "Department"),
          yaxis = list(title = "Number of reorders"))
 ```
 

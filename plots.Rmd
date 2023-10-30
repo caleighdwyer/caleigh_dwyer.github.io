@@ -49,7 +49,7 @@ instacart_bar =
   plot_ly(
     x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis") |> 
   layout(title = "Number of Instacart reorders per department",
-         xaxis = list(title = "reorder"),
+         xaxis = list(title = "Department"),
          yaxis = list(title = "Number of reorders"))
 ```
 
